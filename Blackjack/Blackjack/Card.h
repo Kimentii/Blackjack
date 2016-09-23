@@ -4,7 +4,7 @@
 #include <algorithm>
 #include <ctime>
 using namespace std;
-class Card
+class Card						//Отдельная игровая карта
 {
 public:
 	enum rank {ACE=1, TWO, THREE, FOUR, FIVE, SIX, SVEN, EIGHT, NINE,TEN,JACK, QUEEN, KING};
@@ -14,6 +14,7 @@ public:
 	int GetValue() const;
 	void Flip();
 private:
+	rank m_Rank;
 	suit m_Suit;
 	bool m_IsFaceUp;
 };
