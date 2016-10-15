@@ -1,3 +1,5 @@
+#ifndef _HAND_H_
+#define _HAND_H_
 #include "Card.h"
 class Hand							//Коллекция карт
 {
@@ -10,3 +12,4 @@ public:
 protected:
 	vector <Card*> m_Cards;
 };
+#endif

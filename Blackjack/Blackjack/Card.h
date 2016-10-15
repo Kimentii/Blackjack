@@ -1,3 +1,5 @@
+#ifndef _CARD_H_
+#define _CARD_H_
 #include <iostream>
 #include <string>
 #include <vector>
@@ -18,3 +20,4 @@ private:
 	suit m_Suit;
 	bool m_IsFaceUp;
 };
+#endif

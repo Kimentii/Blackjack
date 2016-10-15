@@ -20,12 +20,25 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Card.h" />
+    <ClInclude Include="Deck.h" />
+    <ClInclude Include="Game.h" />
     <ClInclude Include="Hand.h" />
+    <ClInclude Include="GenericPlayer.h" />
+    <ClInclude Include="House.h" />
+    <ClInclude Include="Player.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Card.cpp" />
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Deck.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GenericPlayer.cpp" />
     <ClCompile Include="Hand.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="House.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{A6A495EB-77B7-4DEF-A3A0-B9C5C54F87CA}</ProjectGuid>
