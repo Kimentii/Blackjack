@@ -12,14 +12,14 @@ int main()
 	string name;
 	for (int i = 0; i < numPlayers; ++i)
 	{
-		cout << "Endter player name: ";
+		cout << "Enter player name: ";
 		cin >> name;
 		names.push_back(name);
 	}
 	cout << endl;
 	Game aGame(names);
 	char again = 'y';
-	while (again != 'n' &&again != 'N')
+	while (again != 'n' && again != 'N')
 	{
 		aGame.Play();
 		cout << "\nDo you eant to play again> (Y/N);";

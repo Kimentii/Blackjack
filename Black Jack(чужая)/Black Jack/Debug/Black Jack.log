@@ -1,0 +1,12 @@
+﻿  random.cpp
+  player.cpp
+c:\users\compilator\desktop\black jack\black jack\player.cpp(99): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\compilator\desktop\black jack\black jack\player.cpp(265): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  main.cpp
+c:\users\compilator\desktop\black jack\black jack\main.cpp(8): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\compilator\desktop\black jack\black jack\main.cpp(120): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\compilator\desktop\black jack\black jack\main.cpp(124): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  dealer.cpp
+  Generating Code...
+dealer.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+LINK : fatal error LNK1207: incompatible PDB format in 'C:\Users\Compilator\Desktop\Black Jack\Debug\Black Jack.pdb'; delete and rebuild

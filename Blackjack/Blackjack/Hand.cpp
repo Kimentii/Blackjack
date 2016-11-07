@@ -35,7 +35,7 @@ int Hand::GetTotal() const
 	vector<Card*>::const_iterator iter;
 	for (iter = m_Cards.begin(); iter != m_Cards.end(); ++iter)
 	{
-		total == (*iter)->GetValue();
+		total += (*iter)->GetValue();
 	}
 	bool containsAce = false;
 	for (iter = m_Cards.begin(); iter != m_Cards.end(); ++iter)	//Определяем есть ли в руке туз
