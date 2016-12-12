@@ -19,26 +19,45 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Algorithm.h" />
     <ClInclude Include="Card.h" />
     <ClInclude Include="Deck.h" />
+    <ClInclude Include="Exception.h" />
+    <ClInclude Include="File.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="Hand.h" />
     <ClInclude Include="GenericPlayer.h" />
     <ClInclude Include="House.h" />
+    <ClInclude Include="Interface.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="Queue.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SafeFunctions.h" />
+    <ClInclude Include="TextFile.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Algorithm.cpp" />
     <ClCompile Include="Card.cpp" />
     <ClCompile Include="Deck.cpp" />
+    <ClCompile Include="File.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="GenericPlayer.cpp" />
     <ClCompile Include="Hand.cpp" />
+    <ClCompile Include="LobbyInterface.cpp" />
+    <ClCompile Include="Menu.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="House.cpp" />
+    <ClCompile Include="Queue.cpp" />
+    <ClCompile Include="SafeFunctions.cpp" />
+    <ClCompile Include="TextFile.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Blackjack.rc" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{A6A495EB-77B7-4DEF-A3A0-B9C5C54F87CA}</ProjectGuid>

@@ -1,14 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Card" Collapsed="true">
-    <Position X="7.25" Y="0.75" Width="1.5" />
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Card">
+    <Position X="9.75" Y="0.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
     <NestedTypes>
-      <Enum Name="Card::rank" Collapsed="true">
+      <Enum Name="Card::rank">
         <TypeIdentifier>
           <NewMemberFileName>Card.h</NewMemberFileName>
         </TypeIdentifier>
       </Enum>
-      <Enum Name="Card::suit" Collapsed="true">
+      <Enum Name="Card::suit">
         <TypeIdentifier>
           <NewMemberFileName>Card.h</NewMemberFileName>
         </TypeIdentifier>
@@ -19,39 +22,119 @@
       <FileName>Card.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Hand" Collapsed="true">
-    <Position X="3.75" Y="0.75" Width="1.5" />
+  <Class Name="Hand">
+    <Position X="2.75" Y="8.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAIABAQAACAEAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
       <FileName>Hand.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="GenericPlayer" Collapsed="true">
-    <Position X="3.75" Y="2" Width="1.5" />
+  <Class Name="GenericPlayer">
+    <Position X="4" Y="11.5" Width="2.5" />
     <TypeIdentifier>
       <HashCode>EAAAAAAAACAAAAAAAAAAAAAAAAAEAAAAAAEAgAAAAAA=</HashCode>
       <FileName>GenericPlayer.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Player" Collapsed="true">
-    <Position X="2.5" Y="3.5" Width="1.5" />
+  <Class Name="Player">
+    <Position X="2" Y="14.75" Width="3" />
     <TypeIdentifier>
-      <HashCode>AAAAQAAAAAAAAAAAAEAAAAAAAAAAAAAAAAEAAQAACBA=</HashCode>
+      <HashCode>AAAAQAAIAAAAAAAAAEAIAQAAAAAAAAgAAAEgQQAADBA=</HashCode>
       <FileName>Player.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="House" Collapsed="true">
-    <Position X="4.75" Y="3.5" Width="1.5" />
+  <Class Name="House">
+    <Position X="5.25" Y="14.75" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AAAABAAAAAAAAAAAAAAAEAAAAAAAAAAAAAMAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAggAAAMAAAAAAAA=</HashCode>
       <FileName>House.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Deck" Collapsed="true">
-    <Position X="0.75" Y="2" Width="1.5" />
+  <Class Name="Deck">
+    <Position X="0.5" Y="11.5" Width="3" />
     <TypeIdentifier>
-      <HashCode>CAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABIAAAAEAA=</HashCode>
+      <HashCode>CAAAAQAAAAAAAAAAAAIAAAAAAAAAAAAAAARIAAAAEAA=</HashCode>
       <FileName>Deck.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game">
+    <Position X="15.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAACiAAAAAgAQAAAAACAA=</HashCode>
+      <FileName>Game.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Exception">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAABAAEAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Exception.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InputExp">
+    <Position X="5" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAABEAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Exception.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="not_int">
+    <Position X="5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAECAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Exception.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="not_eng">
+    <Position X="7.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAABAAAEAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Exception.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="out_of_size">
+    <Position X="2.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAEAAAAAAAAAAABAAAAAAAgAAAA=</HashCode>
+      <FileName>Exception.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QueueExp">
+    <Position X="0.5" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAACAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Exception.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="wrong_element">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAEAAAAAAAAAAABACAAAAAAAAAA=</HashCode>
+      <FileName>Exception.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cQueueUnit&lt;T&gt;">
+    <Position X="6" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAABQAAIAAAA=</HashCode>
+      <FileName>Queue.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cQueue&lt;T&gt;">
+    <Position X="12.25" Y="0.5" Width="3" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="cQueue&lt;T&gt;::Iterator">
+        <TypeIdentifier>
+          <NewMemberFileName>Queue.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>IEQAAAACgAAAAAAAAKAAAAASAIEAAAABDAAAAIAkAgQ=</HashCode>
+      <FileName>Queue.h</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
